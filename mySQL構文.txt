@@ -1,19 +1,19 @@
-¡ƒf[ƒ^‚ð‘}“ü
-INSERT INTO ƒe[ƒuƒ‹–¼(ƒtƒB[ƒ‹ƒh–¼...) VALUES(’l...)
+â– ãƒ‡ãƒ¼ã‚¿ã‚’æŒ¿å…¥
+INSERT INTO ãƒ†ãƒ¼ãƒ–ãƒ«å(ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰å...) VALUES(å€¤...)
 
-¡ƒf[ƒ^‚ÌŽæ“¾
-SELECT * FROM ƒe[ƒuƒ‹–¼ WHERE id = '1'
+â– ãƒ‡ãƒ¼ã‚¿ã®å–å¾—
+SELECT * FROM ãƒ†ãƒ¼ãƒ–ãƒ«å WHERE id = '1'
 
-¡ƒf[ƒ^‚ÌXV set‚Ì‚ ‚Æ‚ª•ÏX–¼ where‚ÍêŠŽw’è
-UPDATE ƒe[ƒuƒ‹–¼ set name='²“¡'
+â– ãƒ‡ãƒ¼ã‚¿ã®æ›´æ–° setã®ã‚ã¨ãŒå¤‰æ›´å whereã¯å ´æ‰€æŒ‡å®šhuhu
+UPDATE ãƒ†ãƒ¼ãƒ–ãƒ«å set name='ä½è—¤'
 WHERE id = '2'
 
-¡ðŒ‚ðŽw’è‚µ‚Äíœ
-DELETE FROM ƒe[ƒuƒ‹–¼ WHERE name='²“¡'
+â– æ¡ä»¶ã‚’æŒ‡å®šã—ã¦å‰Šé™¤
+DELETE FROM ãƒ†ãƒ¼ãƒ–ãƒ«å WHERE name='ä½è—¤'
 
-Varchar‚ðŽg‚Á‚½ê‡‚ÍÆ‡‡˜‚ðutf8_unicode_ci‚É•Ï‚¦‚é
+Varcharã‚’ä½¿ã£ãŸå ´åˆã¯ç…§åˆé †åºã‚’utf8_unicode_ciã«å¤‰ãˆã‚‹
 
-ƒtƒB[ƒ‹ƒh‚ðì‚é‚Æ‚«‚ÍÅ‰‚ÉID‚ð–Y‚ê‚È‚¢
-ID‚ÌƒCƒ“ƒfƒbƒNƒX‚ÉPRIMARY AutoIncrement‚Éƒ`ƒFƒbƒN‚ð“ü‚ê‚é
+ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã‚’ä½œã‚‹ã¨ãã¯æœ€åˆã«IDã‚’å¿˜ã‚Œãªã„
+IDã®ã‚¤ãƒ³ãƒ‡ãƒƒã‚¯ã‚¹ã«PRIMARY AutoIncrementã«ãƒã‚§ãƒƒã‚¯ã‚’å…¥ã‚Œã‚‹
 
-insert into tablename(num,name,addr,tel)values('0001','²“¡','ŠâŽè','019')
+insert into tablename(num,name,addr,tel)values('0001','ä½è—¤','å²©æ‰‹','019')
