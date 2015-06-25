@@ -1,0 +1,19 @@
+■データを挿入
+INSERT INTO テーブル名(フィールド名...) VALUES(値...)
+
+■データの取得
+SELECT * FROM テーブル名 WHERE id = '1'
+
+■データの更新 setのあとが変更名 whereは場所指定
+UPDATE テーブル名 set name='佐藤'
+WHERE id = '2'
+
+■条件を指定して削除
+DELETE FROM テーブル名 WHERE name='佐藤'
+
+Varcharを使った場合は照合順序をutf8_unicode_ciに変える
+
+フィールドを作るときは最初にIDを忘れない
+IDのインデックスにPRIMARY AutoIncrementにチェックを入れる
+
+insert into tablename(num,name,addr,tel)values('0001','佐藤','岩手','019')
